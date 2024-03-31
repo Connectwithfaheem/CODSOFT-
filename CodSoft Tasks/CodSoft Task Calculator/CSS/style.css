@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url(/Images/calculator.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 300px;
+  background-color: #3f3f3f;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 5px 3px #000;
+}
+#display {
+  height: 64px;
+  border: none;
+  padding: 8px;
+  font-size: 2rem;
+  line-height: 64px;
+  text-align: right;
+  vertical-align: center;
+  border-radius: 8px;
+  background-color: #0f0f0f;
+  margin-bottom: 12px;
+  font-family: 'PT Mono';
+}
+table td {
+  display: inline-block;
+}
+.btn {
+  cursor: pointer;
+  width: 60px;
+  height: 44px;
+  border-radius: 4px;
+  border: none;
+  margin: 4px;
+  background-color: #776d6d;
+  color: #fff;
+  box-shadow: 2px 2px 2px #0e0e0e;
+  padding: 4px 0 4px 0;
+}
+.btn:hover {
+  background-color: #9b8f8f;
+}
+.operand {
+  background-color: #fff;
+  color: #000;
+  transition: all .7s ease;
+}
+.operand:hover {
+  background-color: #000;
+  color: #fff;
+}
+.stretch {
+  width: 94px;
+  background-color: #fa980b;
+  
+}
+.equal {
+  width: 128px;
+}
+
+.hdg{
+  font-size: 2.2rem;
+  margin: 10px;
+}
+@media (max-width: 300px) {
+  .btn {
+    cursor: pointer;
+    width: 60px;
+    height: 44px;
+    border-radius: 4px;
+    border: none;
+    margin: 4px;
+    background-color: #776d6d;
+    color: #fff;
+    box-shadow: 2px 2px 2px #0e0e0e;
+    padding: 4px 0 4px 0;
+  }
+
+}
